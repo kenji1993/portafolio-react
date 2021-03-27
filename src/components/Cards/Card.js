@@ -11,7 +11,7 @@ const Card = ({image, title, description, url, github}) => {
                 <h4 className="card-title"> {title} </h4>
                 <p> {description} </p>
                 <a href={url} className="btn btn-outline-secondary"> Proyecto </a>
-                <a href={github}> Github </a>
+                <a href={github} className="btn btn-outline-secondary"> Github </a>
             </div>
         </div>
     )

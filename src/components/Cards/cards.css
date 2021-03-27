@@ -4,3 +4,6 @@
 .overflow {
     overflow: hidden;
 }
+.overflow  img {
+    max-width: 30rem;
+}
