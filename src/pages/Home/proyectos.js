@@ -2,7 +2,8 @@ import randomPage from '../../assets/randomPage.jpg'
 import kenjinux from '../../assets/kenjinux.png'
 import pronunciation from '../../assets/pronunciation.jpeg'
 
-const cards = [
+
+const proyectos = [
     {
         id: 1,
         title: 'Random Page',
@@ -29,4 +30,5 @@ const cards = [
     }
 ]
 
-export default cards
+
+export default proyectos

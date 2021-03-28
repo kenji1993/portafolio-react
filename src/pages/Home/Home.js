@@ -1,27 +1,27 @@
 import React from 'react'
-import Card from './Card'
-import cards from './CardOptions'
+import Card from '../../components/Cards/Card'
+import proyectos from './proyectos'
 
-const Cards = () => {
+const Home = () => {
     return (
         <div className="container d-flex justify-content-center">
             <div className="row">
                 {
-                    cards.map( ({id, title, image, url, description, github}) => 
+                    proyectos.map(({id, title, image, description, url, github}) => 
                         <div className="col-4" key={id}>
                             <Card
                                 title={title}
                                 image={image}
-                                description={description}
                                 url={url}
+                                description={description}
                                 github={github}
                             />
                         </div>
                     )
                 }
-            </div>
+            </div>        
         </div>
     )
 }
 
-export default Cards
+export default Home

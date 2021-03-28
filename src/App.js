@@ -1,8 +1,10 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Cards from './components/Cards/Cards';
 import Technologies from './components/Technologies/Technologies';
 import Buttons from './components/Buttons/Buttons';
+import { BrowserRouter as Router, Route , Switch,Link } from 'react-router-dom';
+import Home from './pages/Home/Home';
+import Css from './pages/DibujosCss/Css';
 
 function App() {
   return (
@@ -19,8 +21,23 @@ function App() {
      <hr />
      <h4 style={styles.knowledge}>Conocimientos:</h4>
      <Technologies/>
-     <Buttons/>
-     <Cards/>
+     <Router>
+        <Buttons/>
+      <Switch>
+        <Route path="/css">
+          <Css/>
+        </Route>
+        <Route path="/challenges">
+          <h2>Frontend Mentor</h2>
+        </Route>
+        <Route path="/">
+            <Home/>
+        </Route>
+     </Switch>
+     </Router> 
+
+     
+
     </div>
   );
 }

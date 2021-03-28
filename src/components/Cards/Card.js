@@ -1,5 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import './cards.css'
+
 
 const Card = ({image, title, description, url, github}) => {
     return (
