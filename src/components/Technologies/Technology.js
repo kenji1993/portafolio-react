@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Technology = ({logo, title}) => {
+const Technology = ({logo, title, style}) => {
     return (
-        <li>
-            <i className={logo} title={title}/>
+        <li className="col">
+            <i className={logo} title={title} style={style}/>
         </li>
     )
 }

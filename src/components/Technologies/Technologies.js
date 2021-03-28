@@ -7,11 +7,12 @@ const Technologies = () => {
     return (
         <ul className="row">
             {
-                tecnologias.map(({id, title, logo, color}) => 
+                tecnologias.map(({id, title, logo, style}) => 
                 <div key={id}>
                     <Technology 
                         title={title}
                         logo={logo}
+                        style={style}
                     />
                 </div>
                 )
