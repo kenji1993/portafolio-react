@@ -1,5 +1,7 @@
 
-
+.card {
+    font-family: 'Roboto Mono', monospace;
+}
 
 .overflow {
     overflow: hidden;
