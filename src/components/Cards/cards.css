@@ -1,6 +1,31 @@
 
 .card {
     font-family: 'Roboto Mono', monospace;
+    border: 0.2rem solid rgb(182, 181, 181);
+    border-radius: 1rem;
+    padding: 1rem;
+    min-height: 45rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    display: flex;
+}
+.card:hover {
+    border: 0.2rem solid transparent;
+    border-image: linear-gradient(to bottom, #54e6eb 0%, #0f2adb 50%, 
+            #e214f5 70%, #25ec89 100%) 1;  
+}
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+.card img {
+    max-height: 23rem;
+    min-height: 20rem;
+}
+.card img:hover {
+    transform: scale(1.25);
+    transition: all 700ms ease;
 }
 
 .overflow {
@@ -8,4 +33,19 @@
 }
 .overflow  img {
     max-width: 30rem;
+}
+.card-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.description {
+    font-size: 1.4rem;
+}
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+.buttons a {
+    font-size: 1.4rem;
+    align-self: end;
 }

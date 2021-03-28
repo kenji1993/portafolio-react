@@ -9,13 +9,16 @@ const Card = ({image, title, description, url, github}) => {
             </div>
             <div className="card-body">
                 <h4 className="card-title"> {title} </h4>
-                <p> {description} </p>
-                <a href={url} className="btn btn-outline-secondary"> Proyecto </a>
-                <a href={github} className="btn btn-outline-secondary"> Github </a>
+                <p className="description"> {description} </p>
+                <div className="buttons">
+                  <a href={url} className="btn btn-outline-secondary btn-block"> Proyecto </a>
+                  <a href={github} className="btn btn-outline-secondary btn-block"> Github </a>
+                </div>
             </div>
         </div>
     )
 }
+
 
 Card.propTypes = {
     title: PropTypes.string.isRequired,

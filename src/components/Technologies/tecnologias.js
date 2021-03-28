@@ -8,7 +8,7 @@ const tecnologias = [
         logo: 'fab fa-html5',
         style: {
             color: '#f5540f',
-            fontSize: 40,
+            fontSize: 80,
         },
     },
     {
@@ -17,7 +17,7 @@ const tecnologias = [
         logo: 'fab fa-css3-alt',
         style: {
             color: '#0e6fe6',
-            fontSize: 40,
+            fontSize: 80,
         }
     },
     {
@@ -26,7 +26,7 @@ const tecnologias = [
         logo: 'fab fa-bootstrap',
         style: {
             color: '#5d0191',
-            fontSize: 40,
+            fontSize: 80,
         }
     },
     {
@@ -34,8 +34,8 @@ const tecnologias = [
         title: 'SASS',
         logo: 'fab fa-sass',
         style: {
-            color: '#bf4080',
-            fontSize: 40,
+            color: '#bf8080',
+            fontSize: 80,
         }
     },
     {
@@ -44,7 +44,7 @@ const tecnologias = [
         logo: 'fab fa-js-square',
         style: {
             color: '#ffea00',
-            fontSize: 40,
+            fontSize: 80,
         }
     }
 ]
