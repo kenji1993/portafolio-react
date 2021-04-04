@@ -1,4 +1,22 @@
 .App {
   text-align: center;
   font-family: 'Roboto Mono', monospace;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.card-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+@media all and (max-width: 1300px) {
+  .App {
+    align-items: center;
+  }
+  .card-content {
+    justify-content: center;
+  }
+
 }

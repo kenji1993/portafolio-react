@@ -31,15 +31,6 @@ const tecnologias = [
     },
     {
         id: 4,
-        title: 'SASS',
-        logo: 'fab fa-sass',
-        style: {
-            color: '#bf8080',
-            fontSize: 80,
-        }
-    },
-    {
-        id: 5,
         title: 'Javascript',
         logo: 'fab fa-js-square',
         style: {

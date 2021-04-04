@@ -1,0 +1,31 @@
+.contacto {
+    left: 2rem;
+    top: 30rem;
+    position: fixed;
+}
+li {
+    list-style: none;
+    font-size: 5rem; 
+    transition: all 700ms ease;
+}
+li:hover {
+    transform: scale(1.2);
+    transition: all 700ms ease;
+
+}
+
+@media all and (max-width: 1300px) {
+    .contacto {
+        top: 0;
+        position: static;
+        display: flex;
+        justify-content: center;
+    }
+    .contacto ul {
+        display: flex;
+        flex-direction: row;
+    }
+    .contacto ul li {
+        margin-left: 3rem;
+    }
+}

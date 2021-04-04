@@ -4,24 +4,23 @@ import cards from './CardOptions'
 
 const Cards = () => {
     return (
-        <div className="container d-flex justify-content-center">
-            <div className="row">
+            <>
                 {
                     cards.map( ({id, title, image, url, description, github}) => 
-                        <div className="col-4" key={id}>
                             <Card
+                                key={id}
                                 title={title}
                                 image={image}
                                 description={description}
                                 url={url}
                                 github={github}
+                                style={styles.card}
                             />
-                        </div>
                     )
                 }
-            </div>
-        </div>
+            </>
     )
 }
+
 
 export default Cards

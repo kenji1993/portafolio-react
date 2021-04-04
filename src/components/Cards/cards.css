@@ -5,8 +5,7 @@
     border-radius: 1rem;
     padding: 1rem;
     min-height: 45rem;
-    margin-top: 4rem;
-    margin-bottom: 4rem;
+    margin: 3rem;
     display: flex;
 }
 .card:hover {

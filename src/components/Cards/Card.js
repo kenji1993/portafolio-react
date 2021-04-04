@@ -5,7 +5,7 @@ import './cards.css'
 
 const Card = ({image, title, description, url, github}) => {
     return (
-        <div className="card">
+        <div className="card col-9 col-md-6 col-lg-3">
             <div className="overflow">
                 <img src={image} alt={image}/>
             </div>

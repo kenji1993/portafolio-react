@@ -26,7 +26,7 @@ const Buttons = () => {
             {
 
                 sections.map(({id, section, route}) => (
-                    <div className="col-4" key={id}>
+                    <div className="col-12 col-md-4" key={id}>
                         <Button
                             section={section}
                             route={route}
