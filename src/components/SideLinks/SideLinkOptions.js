@@ -16,7 +16,10 @@ const contacto = [
         href: "https://github.com/kenji1993",
         icon : "fab fa-github-alt",
         style: {
-            color: "black"
+            color: "black",
+            background: "#fff",
+            borderRadius: 30,
+            padding: 2,
         }
     },
     {

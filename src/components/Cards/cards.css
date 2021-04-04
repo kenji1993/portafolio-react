@@ -7,6 +7,8 @@
     min-height: 45rem;
     margin: 3rem;
     display: flex;
+    background: #fff;
+    color: #000;
 }
 .card:hover {
     border: 0.2rem solid transparent;
@@ -47,4 +49,5 @@
 .buttons a {
     font-size: 1.4rem;
     align-self: end;
+    color: #fff;
 }

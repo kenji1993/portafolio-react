@@ -21,7 +21,6 @@ const Card = ({image, title, description, url, github}) => {
     )
 }
 
-
 Card.propTypes = {
     title: PropTypes.string.isRequired,
     image: PropTypes.string.isRequired,

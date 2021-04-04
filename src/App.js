@@ -6,14 +6,15 @@ import { BrowserRouter as Router, Route , Switch } from 'react-router-dom';
 import Home from './pages/Home/Home';
 import Css from './pages/DibujosCss/Css';
 import SideLinks from './components/SideLinks/SideLinks';
-import DarkMode from './components/DarkMode/DarkMode';
 
 function App() {
+ 
+
   return (
     <>
-    <SideLinks />
-    <DarkMode/>
-    <div className="App container">
+    <div className="container-fluid majorContainer">
+    <SideLinks/>
+    <div className="App container" >
      <h1 style={styles.h1} >Kenji Arakaki</h1>
      <h4 style={styles.h4}>Front-end Developer</h4>
      <hr />
@@ -42,9 +43,7 @@ function App() {
             </Switch>
         </div>
      </Router> 
-
-     
-
+      </div>
     </div>
     </>
   );
@@ -69,7 +68,7 @@ const styles = {
     marginTop: 40,
     marginBottom: 30,
 
-  }
+  },
 }
 
 export default App;
